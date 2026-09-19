@@ -3,6 +3,6 @@ module.exports = {
   once: true,
   execute(client) {
     console.log(`${client.user.tag} olarak giriş yapıldı!`);
-    client.user.setActivity('g!yardım | Comeback', { type: 0 });
+    client.user.setActivity('g!yardım | ayhost.com.tr', { type: 0 });
   },
 };
